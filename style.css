@@ -1,0 +1,134 @@
+body {
+  font-family: "Helvetica";
+  background-color: #f5f5f5;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header {
+  margin: 40px 0;
+}
+
+.header p {
+  color:#20B2AA;
+  font-weight: 800;
+  font-family: "Helvetica Neue";
+  font-size: xx-large;
+}
+
+
+.header__avatar {
+  height: 300px;
+  border-radius: 10%;
+}
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+}
+
+.header__subtitle {
+  color: #8f8f8f;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.text {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.links__header {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+.links__container {
+  list-style-type: none;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+  min-width: 100px;
+  font-family: "Helvetica Neue";
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid #dadada;
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #cb782f;
+}
+
+.text__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #7FFFD4;
+  border-radius: 20px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.personality {
+  color: #008B8B ;
+  font-weight: 400;
+}
+
+.hobby,
+.hobby a {
+  color: #4682B4;
+}
